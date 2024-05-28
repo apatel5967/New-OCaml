@@ -13,4 +13,4 @@ operators. If it sees certain tokens, then it adds certain expressions. A real l
 The Evaluator: Takes in the expression created by the parser and does the evaluating. Essentially, this matches the expression created before and checks to see if it has a 
 valid output in OCaml. This takes in an environment and an expression, and evaluates the expression in the environment. The environment is used to store values that would be useful later on if the expression needs it, like in currying. If it does not evaluate properly, then it returns a specific error.
 
-In the end, this code takes in a string input and returns the evaluation of that input, almost like coding a new dynamically-typed langauge/.
+In the end, this code takes in a string input and returns the evaluation of that input, almost like coding a new dynamically-typed langauge.
