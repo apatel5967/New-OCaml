@@ -1,7 +1,6 @@
 # New-OCaml
 
-This project is essentially taking OCaml, a statically-typed language, and converting it to a dynamically-typed language. This essentially means that instead of checking the 
-typing at compile time, it is now checked at compile time. In order to implement this, three things are needed: a Lexer, Parser, and Evaluator.
+This project is essentially taking OCaml, a statically-typed language, and converting it to a dynamically-typed language. This essentially checks to see if the code is well-typed before running the code. This means that if it passes the type checker, it will not causes a type error when ran. In order to implement this, three things are needed: a Lexer, Parser, and Evaluator.
 
 # The Lexer: 
 Takes in an input string and converts it into a token list. This token list will be used by the parser later. The lexer uses Regex to specifically match certain 
